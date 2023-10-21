@@ -2,7 +2,7 @@
   "name": "kakkosan",
   "displayName": "Kakkosan",
   "version": "0.0.1",
-  "description": "カッコで囲みます",
+  "description": "カッコで囲む / カッコを追加",
   "author": "goto",
   "scripts": {
     "dev": "plasmo dev",
@@ -23,7 +23,11 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*/*", "http://*/*"
+    ],
+    "permissions" : [
+      "contextMenus",
+      "tabs"
     ]
   }
 }

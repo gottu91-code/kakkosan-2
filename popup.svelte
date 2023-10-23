@@ -3,7 +3,7 @@
 </script>
 
 <div class="popup">
-  <h1>カッコで囲むさん</h1>
+  <h1>カッコで囲むさん<span class="version">v0.0.1</span></h1>
 
   <h2>使い方</h2>
 
@@ -26,6 +26,10 @@
       <li>右クリックから【kakkosan】を選択</li>
       <li>【カッコを追加】を選択</li>
     </ol>
+  </div>
+
+  <div class="info">
+    <p>作者: gottu91 ( <a href="https://twitter.com/gottu91" target="blank">Xアカウント</a> )</p>
   </div>
 </div>
 
@@ -50,6 +54,19 @@
 
   h2 {
     margin-top: 12px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .version {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  .info {
+    margin-top: 20px;
   }
 
   .how {
